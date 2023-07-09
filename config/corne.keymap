@@ -8,6 +8,11 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+#define DEFAULT 0
+#define mo1_layer   1
+#define mo2_layer   2
+#define mo3_layer   3
+#define mo4_layer   4
 
 / {
         keymap {
@@ -27,7 +32,7 @@
    &trans &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P           &trans
    &trans &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI        &trans
    &trans &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH        &trans
-                  &kp LSHFT &mo 3 &mo 2   &kp RET &kp SPACE &mo 2
+                  &kp LSHFT mo3_layer mo2_layer   &kp RET &kp SPACE mo1_layer
                         >;
                 };
 
@@ -49,7 +54,7 @@
    &trans &kp ESC      &trans       &trans       &trans       &trans         &trans   &trans          &kp UP         &trans          &kp BSPC        &trans
    &trans &trans       &trans       &trans       &trans       &trans         &trans   &kp LEFT        &kp DOWN       &kp RIGHT       &kp COLON        &trans
    &trans &trans       &trans       &trans       &trans       &trans         &trans   &trans          &kp LT         &kp GT          &kp QMARK        &trans 
-                          	 &kp LCTRL     &kp LGUI       &kp RALT             &trans          &trans   &kp RALT
+                          	 &kp LCTRL     &kp LGUI       &kp RALT             &trans          &trans   &trans 
                         >;
                 };
 
@@ -72,7 +77,7 @@
    &trans &kp EXCL        &kp AT         &kp HASH         &kp DLLR         &kp PRCNT           &kp CARET         &kp AMPS      &kp KP_MULTIPLY        &kp LPAR      &kp RPAR        &trans 
    &trans &kp APOS        &kp TILDE      &kp PIPE         &trans           &kp MINUS           &kp PLUS          &trans        &trans                 &trans        &kp COLON        &trans
    &trans &trans          &trans         &trans           &trans           &trans              &kp LBRC          &kp RBRC      &kp LT                 &kp GT        &kp QMARK         &trans
-                    	     &trans  &trans   &trans   &trans  &trans  &mo 4
+                    	     &trans  &trans   &trans   &trans  &trans  mo4_layer
                         >;
                 };
 
@@ -88,14 +93,14 @@
 //   1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | 
 //   '  |  `  |  \  |     |  _  |   |  =  |     |     |     |  ;  |  
 //      |     |     |     |     |   |  [  |  ]  |  ,  |  .  |  /  |  
-//                    | Shift | [mo3]  | mo2 |   | ENT |     | ALT |
+//                    | Shift | [mo3]  | mo2 |   | ENT |     | MO4 |
 
 
                         bindings = <
    &trans &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6           &kp N7           &kp N8        &kp N9    &kp N0        &trans
    &trans &kp SQT      &kp GRAVE    &kp BSLH     &trans       &kp UNDER      &kp EQUAL        &trans           &trans        &trans    &kp SEMI        &trans
    &trans &trans       &trans       &trans       &trans       &trans         &kp LBKT         &kp RBKT         &kp COMMA     &kp DOT   &kp FSLH        &trans
-                          	       &trans      &trans       &trans       &trans   &trans   &mo 4
+                          	       &trans      &trans       &trans       &trans   &trans   mo4_layer
                         >;
                 };
 
