@@ -44,14 +44,14 @@
 
 
 // Layer 1 -----------------------------------------------------------------------------------------
-//   ESC|  W  |  E  |  R  |  T  |   |  Y  |  U   |  UP  |  9  |  DEL  
+//   ESC|  W  |  E  |  R  |  T  |   |  Y  |  U   |  UP  |  BCKSPC  |  DEL  
 //   A  |  S  |  D  |  F  |  G  |   |  H  | LFT  |  DWN | RGT |  :   
 //   Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  <  |  >  |  ?   
 //                    | CTRL |  GUI [OS Key]  | ALT |   | Shift |  SPC   | MO1  |
 
 
                         bindings = <
-   &trans &kp ESC      &trans       &trans       &trans       &trans         &trans   &trans          &kp UP         &trans          &kp DEL        &trans
+   &trans &kp ESC      &trans       &trans       &trans       &trans         &trans   &trans          &kp UP         &kp BSPC          &kp DEL        &trans
    &trans &trans       &trans       &trans       &trans       &trans         &trans   &kp LEFT        &kp DOWN       &kp RIGHT       &kp COLON        &trans
    &trans &trans       &trans       &trans       &trans       &trans         &trans   &trans          &kp LT         &kp GT          &kp QMARK        &trans 
                           	 &kp LCTRL     &kp LGUI       &kp RALT             &kp LSHFT         &trans   &trans 
