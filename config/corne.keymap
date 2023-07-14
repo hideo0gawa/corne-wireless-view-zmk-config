@@ -15,19 +15,6 @@
 #define mo3_layer   3
 #define mo4_layer   4
 
-/ {
-    behaviors {
-        ht_tp: hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "hold_tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <220>;
-            quick-tap-ms = <150>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
-    };
-
 
 / {
         keymap {
