@@ -31,16 +31,21 @@
 
 // Layer 0 -----------------------------------------------------------------------------------------
 //         Q   [ESC]   |  W [@]         |  E [#]          |  R  [$]            |  T   [%]       |  Y    [^]           |  U [&]          |  I   [*]               |  O [(]          |  P  [)]
- &trans &mt ESC Q         &mt AT W         &mt HASH E          &mt DLLR R         &mt PRCNT T       &mt CARET Y           &mt AMPS U          &mt KP_MULTIPLY I      &mt LPAR O         &mt RPAR P           &trans
+ 
 
 //             A [']        |  S [~]          |  D [|]              |  F     |  G [_]          |   |  H [=]          |  J     |  K       |  L      |  ;  [:]
- &trans      &mt SQT A         &mt TILDE S         &mt PIPE D         &mt F     &mt UNDER G           &mt EQUAL H      &kp J    &kp K      &kp L     &mt COLON SEMI        &trans
+ 
 
 //           Z             |  X          |  C          |  V          |  B          |   |  N   "["       |  M  "]"         |  ,   [<]            |  .    [>]          |  /  [?]
-&trans      &mt LSHIFT Z     &kp X         &kp C         &kp V         &kp B             &mt LBKT N         &mt RBKT M         &mt LT COMMA         &mt GT DOT         &mt QMARK FSLH        &trans
+
 
 //              | Shift [Caps]         | MO3 |                 MO2 |                   | ENT                 | SPC                          | MO1 |
-   
+
+
+
+&trans      &mt ESC Q         &mt AT W         &mt HASH E          &mt DLLR R         &mt PRCNT T       &mt CARET Y           &mt AMPS U          &mt KP_MULTIPLY I      &mt LPAR O         &mt RPAR P           &trans
+&trans      &mt SQT A         &mt TILDE S         &mt PIPE D         &kp F     &mt UNDER G           &mt EQUAL H      &kp J    &kp K      &kp L     &mt COLON SEMI        &trans
+&trans      &mt LSHIFT Z     &kp X         &kp C         &kp V         &kp B             &mt LBKT N         &mt RBKT M         &mt LT COMMA         &mt GT DOT         &mt QMARK FSLH        &trans
                   &mt LSHFT CAPS         &mo mo3_layer         &mo mo2_layer           &kp RET                 &lt mo5_layer SPACE         &mo mo1_layer
                         >;
                 };
