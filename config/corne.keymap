@@ -81,16 +81,16 @@
 
 
 // Layer 2 -----------------------------------------------------------------------------------------
-//   !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | 
+//   ! [1] |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | 
 //   "  |  ~  | "|" |     |  -  |   |  +  |     |     |     |  :  |  
 //      |     |     |     |     |   |  {  |  }  |  <  |  >  |  /  |  
 //                    | Shift   |  CTR   | [MO2] |   | = |  SPC  | MO4 |
 
 
                         bindings = <
-   &trans &kp EXCL        &kp AT         &kp HASH         &kp DLLR         &kp PRCNT           &kp CARET         &kp AMPS      &kp KP_MULTIPLY        &kp LPAR      &kp RPAR        &trans 
-   &trans &kp DQT        &kp TILDE      &kp PIPE         &trans           &kp MINUS           &kp PLUS          &trans        &trans                 &trans        &kp COLON        &trans
-   &trans &trans          &trans         &trans           &trans           &trans              &kp LBRC          &kp RBRC      &kp LT                 &kp GT        &kp FSLH         &trans
+   &trans &mt N1 EXCL        &mt N2 AT         &mt N3 HASH         &mt N4 DLLR         &mt N5 PRCNT           &mt N6 CARET         &my N7 AMPS      &mt N8 KP_MULTIPLY        &mt N9 LPAR      &mt N0 RPAR        &trans 
+   &trans &mt SQT DQT        &mt GRAVE TILDE      &mt BSLH PIPE         &trans           &mt UNDER MINUS           &mt EQUAL PLUS          &trans        &trans                 &trans        &mt SEMI COLON        &trans
+   &trans &trans          &trans         &trans           &trans           &trans              &mt LBKT LBRC          &mt RBKT RBRC      &mt COMMA LT                 &mt DOT GT        &mt QMARK FSLH         &trans
                     	    &kp RET  &kp LCTRL    &trans   &kp EQUAL  &trans  &mo mo4_layer
                         >;
                 };
@@ -111,9 +111,9 @@
 
 
                         bindings = <
-   &trans &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6           &kp N7           &kp N8        &kp N9    &kp N0        &trans
-   &trans &kp SQT      &kp GRAVE    &kp BSLH     &trans       &kp UNDER      &kp EQUAL        &trans           &trans        &trans    &kp SEMI        &trans
-   &trans &trans       &trans       &trans       &trans       &trans         &kp LBKT         &kp RBKT         &kp COMMA     &kp DOT   &kp FSLH        &trans
+   &trans &mt EXCL N1       &mt AT N2       &mt HASH N3       &mt DLLR N4       &mt PRCNT N5         &mt CARET N6           &mt AMPS N7           &mt KP_MULTIPLY N8        &mt LPAR N9    &mt RPAR N0        &trans
+   &trans &mt DQT SQT      &mt TILDE GRAVE    &mt PIPE BSLH     &trans       &mt MINUS UNDER      &mt PLUS EQUAL        &trans           &trans        &trans    &mt COLON SEMI        &trans
+   &trans &trans       &trans       &trans       &trans       &trans         &mt LBRC LBKT         &mt RBRC RBKT         &mt LT COMMA     &mt GT DOT   &mt QMARK FSLH        &trans
                           	       &trans      &trans       &trans       &kp UNDER   &trans   &mo mo4_layer
                         >;
                 };
