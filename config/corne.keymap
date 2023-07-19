@@ -25,7 +25,7 @@
 
                 default_layer {
 
-                                bindings = <
+                                
   
 
 
@@ -41,7 +41,7 @@
 
 //              | Shift [Caps]         | MO3 |                 MO2 |                   | ENT                 | SPC                          | MO1 |
 
-
+                        bindings = <
 
 &trans      &mt ESC Q         &mt AT W         &mt HASH E          &mt DLLR R         &mt PRCNT T       &mt CARET Y           &mt AMPS U          &mt KP_MULTIPLY I      &mt LPAR O         &mt RPAR P           &trans
 &trans      &mt SQT A         &mt TILDE S         &mt PIPE D         &kp F     &mt UNDER G           &mt EQUAL H      &kp J    &kp K      &kp L     &mt COLON SEMI        &trans
