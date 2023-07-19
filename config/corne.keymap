@@ -39,9 +39,9 @@
 //           Z             |  X          |  C          |  V          |  B          |   |  N   "["       |  M  "]"         |  ,   [<]            |  .    [>]          |  /  [?]
 &trans      &mt LSHIFT Z     &kp X         &kp C         &kp V         &kp B             &mt LBKT N         &mt RBKT M         &mt LT COMMA         &mt GT DOT         &mt QMARK FSLH        &trans
 
-//                    | Shift [Caps] | MO3 | MO2 |   | ENT | SPC  | MO1 |
+//              | Shift [Caps]         | MO3 |                 MO2 |                   | ENT                 | SPC                          | MO1 |
    
-                  &mt LSHFT CAPS &mo mo3_layer &mo mo2_layer   &kp RET &lt mo5_layer SPACE &mo mo1_layer
+                  &mt LSHFT CAPS         &mo mo3_layer         &mo mo2_layer           &kp RET                 &lt mo5_layer SPACE         &mo mo1_layer
                         >;
                 };
 
