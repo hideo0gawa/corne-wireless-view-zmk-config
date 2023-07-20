@@ -45,9 +45,9 @@
 
                         bindings = <
 
-&trans      &mt ESC Q         &kp  W         &kp  E          &kp  R         &kp T       &kp  Y           &kp  U          &kp  I      &kp  O         &kp  P           &trans
+&trans      &mt ESC Q         &kp  W         &kp  E          &kp  R         &kp T       &kp  Y           &kp  U          &kp  I      &kp O         &kp P           &trans
 &trans      &kp A         &kp  S         &kp  D         &kp F     &mt UNDER G           &kp  H      &kp J    &kp K      &kp L     &mt COLON SEMI        &trans
-&trans      &mt LSHIFT Z     &kp X         &kp C         &kp V         &kp B             &kp  N         &kp  M         &mt LT COMMA         &mt GT DOT         &mt QMARK FSLH        &trans
+&trans      &mt LSHIFT Z     &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &mt LT COMMA         &mt GT DOT         &mt QMARK FSLH        &trans
                   &mt LSHFT LCAPS        &mo mo3_layer         &mo mo2_layer           &kp RET                 &lt mo5_layer SPACE         &mo mo1_layer
                         >;
                 };
