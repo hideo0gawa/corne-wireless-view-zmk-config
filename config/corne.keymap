@@ -67,9 +67,9 @@
 
 
                         bindings = <
-   &trans &kp ESC      &trans       &trans       &trans       &trans         &trans   &trans          &kp UP         &kp BSPC          &kp DEL        &trans
+   &trans &mt ESC Q      &mt N2 W         &mt N3 E          &mt N4 R         &mt N5 T          &trans   &trans          &kp UP         &kp BSPC          &kp DEL        &trans
    &trans &trans       &trans       &trans       &trans       &trans         &trans   &kp LEFT        &kp DOWN       &kp RIGHT       &kp COLON        &trans
-   &trans &trans       &trans       &trans       &trans       &trans         &trans   &trans          &kp LT         &kp GT          &kp QMARK        &trans 
+   &trans &mt LSHIFT Z       &trans       &trans       &trans       &trans         &trans   &trans          &kp LT         &kp GT          &kp QMARK        &trans 
                           	 &kp LCTRL     &kp LGUI       &kp RALT             &kp TAB         &trans   &trans 
                         >;
                 };
