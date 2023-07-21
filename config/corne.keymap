@@ -90,8 +90,8 @@
 
 
                         bindings = <
-   &trans &mt Q EXCL        &mt W AT         &mt N3 HASH         &mt R DLLR         &mt N5 PRCNT           &mt N6 CARET         &mt N7 AMPS      &mt N8 KP_MULTIPLY        &mt N9 LPAR      &mt P RPAR        &trans 
-   &trans &mt A DQT        &mt GRAVE TILDE      &mt S PIPE         &trans           &mt UNDER MINUS           &mt EQUAL PLUS          &trans        &trans                 &trans        &mt SEMI COLON        &trans
+   &trans &mt Q EXCL        &mt W AT         &mt N3 HASH         &mt R DLLR         &mt N5 PRCNT           &mt N6 CARET         &mt N7 AMPS      &mt N8 KP_MULTIPLY        &mt O LPAR      &mt P RPAR        &trans 
+   &trans &mt A DQT        &mt S TILDE      &mt BSLH PIPE         &trans           &mt UNDER MINUS           &mt EQUAL PLUS          &trans        &trans                 &trans        &mt SEMI COLON        &trans
    &trans &trans          &trans         &trans           &trans           &trans              &mt LBKT LBRC          &mt RBKT RBRC      &mt COMMA LT                 &mt DOT GT        &mt QMARK FSLH         &trans
                     	    &kp RET  &kp LCTRL    &trans   &kp EQUAL  &trans  &mo mo4_layer
                         >;
@@ -134,8 +134,8 @@
 
 
                         bindings = <
-   &trans &kp F1         &kp F2               &kp F3             &kp F4           &kp F5               &kp F6   &kp F7   &kp F8       &kp F9    &kp BSPC        &trans
-   &trans &bt BT_SEL 0   &bt BT_SEL 1         &bt BT_SEL 2       &bt BT_SEL 3    &bt BT_SEL 4         &trans   &trans   &trans       &trans    &trans        &trans
+   &trans &kp F1         &kp F2               &kp F3             &kp F4           &kp F5               &kp F6   &kp F7   &kp UP       &kp F9    &kp BSPC        &trans
+   &trans &bt BT_SEL 0   &bt BT_SEL 1         &bt BT_SEL 2       &bt BT_SEL 3    &bt BT_SEL 4         &trans   &kp LEFT   &kp DOWN       &kp RIGHT    &trans        &trans
    &trans &trans               &trans               &trans               &trans            &trans               &trans   &trans   &trans       &trans    &trans         &trans
                           	        &trans     &trans       &trans      &trans  &trans   &trans
                         >;
