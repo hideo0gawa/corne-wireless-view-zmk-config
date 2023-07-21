@@ -48,7 +48,7 @@
 &trans      &mt ESC Q         &kp  W         &kp  E          &kp  R         &kp T       &kp  Y           &kp  U          &kp  I      &kp O         &kp P           &trans
 &trans      &kp A         &kp  S         &kp  D         &kp F     &mt UNDER G           &kp  H      &kp J    &kp K      &kp L     &mt COLON SEMI        &trans
 &trans      &mt LSHIFT Z     &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &mt LT COMMA         &mt GT DOT         &mt QMARK FSLH        &trans
-                  &mt LSHFT LCAPS        &mo mo3_layer         &mo mo2_layer           &kp RET                 &lt mo5_layer SPACE         &mo mo1_layer
+                  &mt LSHFT LCTRL        &mo mo3_layer         &mo mo2_layer           &kp RET                 &lt mo5_layer SPACE         &mo mo1_layer
                         >;
                 };
 
@@ -91,7 +91,7 @@
 
                         bindings = <
    &trans &mt N1 EXCL        &mt N2 AT         &mt N3 HASH         &mt N4 DLLR         &mt N5 PRCNT           &mt N6 CARET         &mt N7 AMPS      &mt N8 KP_MULTIPLY        &mt N9 LPAR      &mt N0 RPAR        &trans 
-   &trans &mt SQT DQT        &mt GRAVE TILDE      &mt BSLH PIPE         &trans           &mt UNDER MINUS           &mt EQUAL PLUS          &trans        &trans                 &trans        &mt SEMI COLON        &trans
+   &trans &mt A DQT        &mt GRAVE TILDE      &mt BSLH PIPE         &trans           &mt UNDER MINUS           &mt EQUAL PLUS          &trans        &trans                 &trans        &mt SEMI COLON        &trans
    &trans &trans          &trans         &trans           &trans           &trans              &mt LBKT LBRC          &mt RBKT RBRC      &mt COMMA LT                 &mt DOT GT        &mt QMARK FSLH         &trans
                     	    &kp RET  &kp LCTRL    &trans   &kp EQUAL  &trans  &mo mo4_layer
                         >;
