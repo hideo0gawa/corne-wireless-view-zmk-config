@@ -90,7 +90,7 @@
 
 
                         bindings = <
-   &trans &mt Q EXCL        &mt W AT         &mt N3 HASH         &mt R DLLR         &mt N5 PRCNT           &mt N6 CARET         &mt N7 AMPS      &mt N8 KP_MULTIPLY        &mt O LPAR      &mt P RPAR        &trans 
+   &trans &mt Q EXCL        &mt W AT         &mt N3 HASH         &mt R DLLR         &mt N5 PRCNT           &mt N6 CARET         &mt N7 AMPS      &mt I KP_MULTIPLY        &mt O LPAR      &mt P RPAR        &trans 
    &trans &mt A DQT        &mt S TILDE      &mt BSLH PIPE         &trans           &mt UNDER MINUS           &mt EQUAL PLUS          &trans        &trans                 &trans        &mt SEMI COLON        &trans
    &trans &trans          &trans         &trans           &trans           &trans              &mt LBKT LBRC          &mt RBKT RBRC      &mt COMMA LT                 &mt DOT GT        &mt QMARK FSLH         &trans
                     	    &kp RET  &kp LCTRL    &trans   &kp EQUAL  &trans  &mo mo4_layer
