@@ -90,9 +90,9 @@
 
 
                         bindings = <
-   &trans &mt Q EXCL        &mt W AT         &mt N3 HASH         &mt R DLLR         &mt N5 PRCNT           &mt N6 CARET         &mt N7 AMPS      &mt I KP_MULTIPLY        &mt O LPAR      &mt P RPAR        &trans 
-   &trans &mt A DQT        &mt S TILDE      &mt BSLH PIPE         &trans           &mt UNDER MINUS           &mt EQUAL PLUS          &trans        &trans                 &trans        &mt SEMI COLON        &trans
-   &trans &trans          &trans         &trans           &trans           &trans              &mt LBKT LBRC          &mt RBKT RBRC      &mt COMMA LT                 &mt DOT GT        &mt QMARK FSLH         &trans
+&trans &mt EXCL N1       &mt AT N2       &mt HASH N3       &mt DLLR N4       &mt PRCNT N5         &mt CARET N6           &mt AMPS N7           &mt KP_MULTIPLY N8        &mt LPAR N9    &mt RPAR N0        &trans  
+ &trans &mt A DQT        &mt S TILDE      &mt BSLH PIPE         &trans           &mt UNDER MINUS           &mt EQUAL PLUS          &trans        &trans                 &trans        &mt SEMI COLON        &trans
+   &trans &trans          &trans         &trans           &trans           &trans              &mt LBKT LBRC          &mt RBKT RBRC      &mt COMMA LT                 &mt GT DOT        &mt QMARK FSLH         &trans
                     	    &kp RET  &kp LCTRL    &trans   &kp EQUAL  &trans  &mo mo4_layer
                         >;
                 };
@@ -113,9 +113,10 @@
 
 
                         bindings = <
-   &trans &mt EXCL N1       &mt AT N2       &mt HASH N3       &mt DLLR N4       &mt PRCNT N5         &mt CARET N6           &mt AMPS N7           &mt KP_MULTIPLY N8        &mt LPAR N9    &mt RPAR N0        &trans
+   
+ &trans &mt Q EXCL        &mt W AT         &mt N3 HASH         &mt R DLLR         &mt N5 PRCNT           &mt N6 CARET         &mt N7 AMPS      &mt I KP_MULTIPLY        &mt O LPAR      &mt P RPAR        &trans   
    &trans &mt DQT SQT      &mt TILDE GRAVE    &mt PIPE BSLH     &trans       &mt MINUS UNDER      &mt PLUS EQUAL        &trans           &trans        &trans    &mt COLON SEMI        &trans
-   &trans &trans       &trans       &trans       &trans       &trans         &mt LBRC LBKT         &mt RBRC RBKT         &mt LT COMMA     &mt GT DOT   &mt QMARK FSLH        &trans
+   &trans &trans       &trans       &trans       &trans       &trans         &mt LBRC LBKT         &mt RBRC RBKT         &mt LT COMMA     &mt DOT GT   &mt QMARK FSLH        &trans
                           	       &trans      &trans       &trans       &kp UNDER   &trans   &mo mo4_layer
                         >;
                 };
