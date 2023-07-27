@@ -151,14 +151,14 @@
 //   !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  _  |  =  | 
 //   "  |  ~  | "|" |     |  _  |   |  =  |     |     |     |  :  |  
 //      |     |     |     |     |   |  [  |  ]  |  <  |  >  |  ?  |  
-//                    | Shift   |  CTR   | [MO2] |   | ENT |  SPC  | MO4 |
+//                    | Shift   |  CTR   | [MO2] |   | ENT |  SPC  | MO5 |
 
 
                         bindings = <
    &trans &kp EXCL        &kp AT         &kp HASH         &kp DLLR         &kp PRCNT           &kp CARET         &kp AMPS      &kp KP_MULTIPLY        &mt MINUS UNDER          &mt PLUS EQUAL        &trans 
    &trans &kp DQT        &kp TILDE      &kp PIPE         &trans           &kp UNDER           &kp EQUAL          &trans        &trans                 &trans        &kp COLON        &trans
    &trans &trans          &trans         &trans           &trans           &trans              &kp LBKT         &kp RBKT      &kp LT                 &kp GT        &kp QMARK         &trans
-                    	    &trans  &kp LCTRL    &trans   &kp RET  &trans  &trans
+                    	    &trans  &kp LCTRL    &trans   &kp RET  &trans  &mo mo1rt_layer
                         >;
                 };
 
